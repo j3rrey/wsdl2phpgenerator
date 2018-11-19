@@ -109,6 +109,7 @@ class PhpClass extends PhpElement
         $this->identifier = $identifier;
         $this->access = '';
         $this->extends = $extends;
+        $this->implements = array();
         $this->constants = array();
         $this->variables = array();
         $this->functions = array();
@@ -153,7 +154,7 @@ class PhpClass extends PhpElement
             $ret .= ' extends ' . $this->extends;
         }
 
-        if (count((array)$this->implements) > 0) {
+        if (count($this->implements) > 0) {
             $ret .= ' implements ' . implode(', ', $this->implements);
         }
 

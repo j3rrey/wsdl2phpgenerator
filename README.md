@@ -1,3 +1,6 @@
+Quick PHP7.2 fix on count error.
+Just instatiated a paramater as an array and everything works as expected
+
 # wsdl2phpgenerator
 [![Latest Stable Version](https://poser.pugx.org/wsdl2phpgenerator/wsdl2phpgenerator/v/stable.png)](https://packagist.org/packages/wsdl2phpgenerator/wsdl2phpgenerator)
 [![Build Status](https://travis-ci.org/wsdl2phpgenerator/wsdl2phpgenerator.svg?branch=master)](https://travis-ci.org/wsdl2phpgenerator/wsdl2phpgenerator)
